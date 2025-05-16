@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="flex bg-[#6F3E1E] border-b-4 border-[#D9B896]">
+        <div>
+            <h1 class="text-white font-bold py-5 px-10 text-3xl">Raffa Shalsabila</h1>
+        </div>
+        <div>
+            <ul class="flex space-x-[100px] py-7 ml-[300px]">
+                <li><a href="#hero" class="text-white font-semibold">Home</a></li>
+                <li><a href="#About-Me" class="text-white font-semibold">About Me</a></li>
+                <li><a href="#Project" class="text-white font-semibold">Project</a></li>   
+                  <li><a href="#goals" class="text-white font-semibold">Goals</a></li>    
+            </ul>
+        </div>
+    </nav>
+    <section id="hero" class="flex">
+        <div class="">
+            <img src="raffa.svg" alt="" class="w-[400px] h-[500px] mx-[100px] my-[50px]">
+        </div> 
+        <div class="px-30 py-20">
+            <h1 class="text-9xl">HELLO, I'M</h1>
+            <h1 class="text-9xl ml-[350px] bg-[#AD9277] ">RAFFA</h1>
+            <br>
+            <br>
+            <br>
+            <section class="py-8 flex justify-center">
+                <div class="bg-[#5D1F0F] border-8 border-[#73200F] px-6 py-4 rounded-xl relative flex flex-col items-center">
+                    <!-- Label -->
+                    <div class="absolute -top-6 left-4 bg-[#C4A78A] px-4 py-1 rounded-t-lg shadow text-sm font-bold text-[#1A1A1A]">
+                    Let’s Connect!
+                    </div>
+
+                    <!-- Icons -->
+                    <div class="flex gap-6 mt-6">
+                    <!-- Icon 1 -->
+                    <a href="mailto:your@email.com" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+                        <img src="gmail.svg" alt="Gmail" class="w-8 h-8">
+                    </a>
+
+                    <!-- Icon 2 -->
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+                        <img src="linkedin.svg" alt="LinkedIn" class="w-8 h-8">
+                    </a>
+
+                    <!-- Icon 3 -->
+                    <a href="https://github.com/yourusername" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+                        <img src="github.svg" alt="GitHub" class="w-8 h-8">
+                    </a>
+
+
+                    </div>
+                </div>
+                </section>
+
+        </div>
+    </section>
+    <section id="About-Me" class="flex flex-col md:ml-[100px] md:flex-row items-center px-6 md:px-16 py-16">
+        <div class="align-top">
+            <h1 class="text-7xl pb-2 b-[40px] border-b-4 border-[#AD9277] max-w-[400px]">About Me</h1>
+            <p class="max-w-[700px] mt-4"> I'm Raffa Shalsabila, an Information Systems student at UIN Jakarta with a keen interest in design, especially graphic design and user interface (UI). I am interested in how design can improve user experience as well as make technology more accessible and engaging. My talent lies in the ability to combine aesthetics with functionality in design.  
+                <br>
+                <br>
+            I am proficient in various design tools such as Canva and have attended various workshops and trainings related to graphic design and UX/UI to hone my skills. I am committed to continuously developing my design skills by learning the latest trends in design and technology. I hope to contribute to the world of digital design by creating innovative and user-friendly solutions. 
+                <br>
+                <br>
+            Although my main focus is UI/UX, I also have a great curiosity towards other fields in technology, such as web development, data analysis, and artificial intelligence/machine learning. I believe that understanding different aspects of technology can enrich my perspective as a designer and help me create more well-rounded and impactful digital solutions.</p>
+
+        </div>
+        <div class="">
+            <img src="about me.svg" alt="" class="w-[400px] h-[400px] mx-[100px] my-[50px]">
+        </div> 
+    </section>
+    <section id="Project" class="relative w-full max-w-6xl mx-auto px-4 py-10">
+    <div class="max-w-6xl mx-auto px-4">
+          <h1 class="text-7xl pb-4 b-[40px] border-b-4 border-[#AD9277] max-w-[300px]">Projects</h1>
+
+        <div class="relative mt-10">
+            <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <!-- 1 -->
+                <div class="swiper-slide">
+                <div class="bg-[#C1AD96] rounded-lg shadow-2xl  border-4 border-[#D9B896] text-white items-center justify-center">
+                    <img src="UIUX.jpg" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <div class="p-4 bg-[#73200F]">
+                        <h3 class="text-lg font-bold  ">bububububu</h3>
+                        <p class="text-sm text-gray-300">
+                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="swiper-slide">
+                <div class="bg-[#C1AD96] rounded-lg shadow-2xl border-4 border-[#D9B896] text-white items-center justify-center">
+                    <img src="raffa.png" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <div class="p-4 bg-[#73200F]">
+                        <h3 class="text-lg font-bold ">Bububububu</h3>
+                        <p class="text-sm text-gray-300">
+                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="swiper-slide">
+                <div class="bg-[#C1AD96] rounded-lg shadow-2xl border-4 border-[#D9B896] text-white items-center justify-center">
+                    <img src="raffa.png" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <div class="p-4 bg-[#73200F]">
+                        <h3 class="text-lg font-bold ">Bububububu</h3>
+                        <p class="text-sm text-gray-300">
+                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="swiper-slide">
+                <div class="bg-[#C1AD96] rounded-lg shadow-2xl border-4 border-[#D9B896] text-white items-center justify-center">
+                    <img src="raffa.png" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <div class="p-4 bg-[#73200F]">
+                        <h3 class="text-lg font-bold ">Bububububu</h3>
+                        <p class="text-sm text-gray-300">
+                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+            <!-- Button gesernyah -->
+            <div class="swiper-button-prev !text-white !w-8 !h-8"></div>
+            <div class="swiper-button-next !text-white !w-8 !h-8"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- <section id="Project" class="mx-[100px] my-[100px]">
+          <h1 class="text-7xl mb-[50px]">Project</h1>
+          <div class="flex flex-wrap mt-[100px] justify-center">
+              <div class="bg-[#C1AD96] max-w-[250px] items-center text-center mx-[50px] rounded-lg shadow-2xl border-4 border-[#D9B896]">
+                  <img src="raffa.png" alt="" class="max-w-[250px] h-auto px-[20px]">
+                  <h3 class="bg-[#73200F] h-[35px] align-middle py-2 text-white">bubububu</h3>
+              </div>
+              <div class="bg-[#C1AD96] max-w-[250px] items-center text-center mx-[50px] rounded-lg shadow-2xl border-4 border-[#D9B896]">
+                  <img src="raffa.png" alt="" class="max-w-[250px] h-auto px-[20px]">
+                  <h3 class="bg-[#73200F] h-[35px] align-middle py-2 text-white">bubububu</h3>
+              </div>
+              <div class="bg-[#C1AD96] max-w-[250px] items-center text-center mx-[50px] rounded-lg shadow-2xl border-4 border-[#D9B896]">
+                  <img src="raffa.png" alt="" class="max-w-[250px] h-auto px-[20px]">
+                  <h3 class="bg-[#73200F] h-[35px] align-middle py-2 text-white">bubububu</h3>
+              </div>
+          </div>
+    </section> -->
+    <section id="goals" class="px-[100px] py-16">
+          <h1 class="text-7xl pb-4 b-[40px] border-b-4 border-[#AD9277] max-w-[200px]">Goals</h1>
+        <div class="flex gap-10 mt-10">
+            <div class="flex flex-col justify-between border-r-2 border-[#4B160B] pr-10 w-1/2">
+            <p class="text-black text-justify mb-8">
+                Referring to my interests and background that I have stated earlier, with the foundation of interests and abilities that I have built, I have a clear vision of the direction of my future development. Here are the goals that I would like to achieve:
+            </p>
+            <img src="box goals.svg" alt="box" class="w-[500px] mx-auto">
+            </div>
+
+            <div class="p-4 w-1/2">
+
+            <div class="flex items-start gap-4 mb-6">
+                <p class="px-4 py-2 flex items-center justify-center rounded-full bg-[#C8A27D] text-white font-bold">1</p>
+                <p class="text-sm text-gray-800 text-justify">
+                Developed a deep understanding and practical skills in UI/UX design principles through case studies, design challenges, and exploration of industry-standard design tools such as Figma and Adobe XD. Applied this knowledge in real-world projects—from coursework, team collaborations, to personal initiatives—as a step towards building a strong, relevant, and diverse portfolio.
+                </p>
+            </div>
+            <hr class="border-t border-gray-400 my-4">
+            <div class="flex items-start gap-4">
+                <p class="px-4 py-2 flex items-center justify-center rounded-full bg-[#C8A27D] text-white font-bold">2</p>
+                <p class="text-sm text-gray-800 text-justify">
+                Contribute to the development of digital products that positively impact users, by keeping abreast of the latest trends in design and technology, and utilizing cross-disciplinary understanding (Information Systems and UI/UX) to create innovative and relevant solutions.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="mx-[100px] mt-10 bg-[#D9B896] p-10 text-center rounded-lg shadow-2xl border-4 border-[#4B160B]">
+        <h1 class="text-7xl mb-[50px]">Quote</h1>
+        <div id="quote-box" class="box ">
+            <i class="fas fa-quote-right"></i>
+            <i class="fas fa-quote-left"></i>
+            <p id="quote-text">Loading...</p>
+            <p id="quote-author"></p>
+        </div>
+    </section>
+    <div class="bg-[#6F3E1E] border-t-4 border-[#D9B896] text-[#002F29] pt-5 pb-5 text-center text-white">
+        <h1>Copyright © 2025 | Raffa Shalsabila</h1>
+     </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
