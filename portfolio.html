@@ -15,13 +15,14 @@
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
+            background-color: #F0EADE;
         }
     </style>
 </head>
 <body>
-    <nav class="flex bg-[#6F3E1E] border-b-4 border-[#D9B896]">
+    <nav class="flex flex-col md:flex-row items-center justify-between bg-[#6F3E1E] border-b-4 border-[#D9B896] px-6 md:px-10 py-5">
         <div>
-            <h1 class="text-white font-bold py-5 px-10 text-3xl">Raffa Shalsabila</h1>
+            <h1 class="text-white font-bold py-5 px-10 text-2xl md:text-3xl">Raffa Shalsabila</h1>
         </div>
         <div>
             <ul class="flex space-x-[100px] py-7 ml-[300px]">
@@ -32,17 +33,18 @@
             </ul>
         </div>
     </nav>
-    <section id="hero" class="flex">
+    <section id="hero" class="flex bg-[#F0EADE] flex-col md:flex-row items-center  md:py-20">
         <div class="">
-            <img src="raffa.svg" alt="" class="w-[400px] h-[500px] mx-[100px] my-[50px]">
+            <img src="raffa.svg" alt="" class="w-64 h-auto mx-[100px] my-[50px] md:w-[400px] md:h-[500px] mx-auto md:mx-0">
         </div> 
-        <div class="px-30 py-20">
-            <h1 class="text-9xl">HELLO, I'M</h1>
-            <h1 class="text-9xl ml-[350px] bg-[#AD9277] ">RAFFA</h1>
+        <div class="px-30 py-20 text-center md:text-left mt-8 md:mt-0 md:ml-16">
+            <h1 class="text-5xl md:text-7xl lg:text-4xl">HELLO, I'M</h1>
+            <h1 class="text-5xl md:text-7xl lg:text-7xl font-normal bg-[#AD9277] inline-block px-4 mt-2 ">RAFFA SHALSABILA</h1>
             <br>
             <br>
             <br>
-            <section class="py-8 flex justify-center">
+            <h1 class="text-5xl md:text-7xl lg:text-4xl">An Information Systems student at UIN Jakarta with a keen interest in design, especially graphic design and user interface (UI).</h1>
+            <section class="py-8 px-[200px] flex justify-center mt-10 flex justify-center md:justify-start">
                 <div class="bg-[#5D1F0F] border-8 border-[#73200F] px-6 py-4 rounded-xl relative flex flex-col items-center">
                     <!-- Label -->
                     <div class="absolute -top-6 left-4 bg-[#C4A78A] px-4 py-1 rounded-t-lg shadow text-sm font-bold text-[#1A1A1A]">
@@ -52,17 +54,17 @@
                     <!-- Icons -->
                     <div class="flex gap-6 mt-6">
                     <!-- Icon 1 -->
-                    <a href="mailto:your@email.com" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+                    <a href="mailto:raffashalsabilaa@gmail.com " target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
                         <img src="gmail.svg" alt="Gmail" class="w-8 h-8">
                     </a>
 
                     <!-- Icon 2 -->
-                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+                    <a href="https://www.linkedin.com/in/raffa-shalsabila-a2025b345/" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
                         <img src="linkedin.svg" alt="LinkedIn" class="w-8 h-8">
                     </a>
 
                     <!-- Icon 3 -->
-                    <a href="https://github.com/yourusername" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+                    <a href="https://github.com/shabila8" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
                         <img src="github.svg" alt="GitHub" class="w-8 h-8">
                     </a>
 
@@ -73,9 +75,9 @@
 
         </div>
     </section>
-    <section id="About-Me" class="flex flex-col md:ml-[100px] md:flex-row items-center px-6 md:px-16 py-16">
+    <section id="About-Me" class="flex flex-col md:flex-row md:px-16 items-center px-4 py-16 bg-[#F0EADE]">
         <div class="align-top">
-            <h1 class="text-7xl pb-2 b-[40px] border-b-4 border-[#AD9277] max-w-[400px]">About Me</h1>
+            <h1 class="text-4xl md:text-7xl pb-2 border-b-4 border-[#AD9277] max-w-[400px]">About Me</h1>
             <p class="max-w-[700px] mt-4"> I'm Raffa Shalsabila, an Information Systems student at UIN Jakarta with a keen interest in design, especially graphic design and user interface (UI). I am interested in how design can improve user experience as well as make technology more accessible and engaging. My talent lies in the ability to combine aesthetics with functionality in design.  
                 <br>
                 <br>
@@ -86,25 +88,25 @@
 
         </div>
         <div class="">
-            <img src="about me.svg" alt="" class="w-[400px] h-[400px] mx-[100px] my-[50px]">
+            <img src="about me.svg" alt="" class="w-[400px] h-[400px] mx-[100px] my-[10px] md:w-[400px] md:ml-16 md:mt-0">
         </div> 
     </section>
-    <section id="Project" class="relative w-full max-w-6xl mx-auto px-4 py-10">
-    <div class="max-w-6xl mx-auto px-4">
-          <h1 class="text-7xl pb-4 b-[40px] border-b-4 border-[#AD9277] max-w-[300px]">Projects</h1>
+    <section id="Project" class="relative w-full max-w-6xl bg-[#F0EADE] px-[100px] md:px-20 py-16">
+    <div class="max-w-6xl px-4">
+          <h1 class="text-7xl md:text-7xl pb-4 b-[40px] border-b-4 border-[#AD9277] max-w-[300px]">Projects</h1>
 
         <div class="relative mt-10">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper ml-[100px] px-30">
             <div class="swiper-wrapper">
 
                 <!-- 1 -->
                 <div class="swiper-slide">
                 <div class="bg-[#C1AD96] rounded-lg shadow-2xl  border-4 border-[#D9B896] text-white items-center justify-center">
-                    <img src="UIUX.jpg" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <img src="redesign.jpg" class="mb-4 w-full max-w-[350px] mx-auto" />
                     <div class="p-4 bg-[#73200F]">
-                        <h3 class="text-lg font-bold  ">bububububu</h3>
+                        <h3 class="text-lg font-bold  ">UI/UX 36.0 DIBIMBING BOOTCAMP</h3>
                         <p class="text-sm text-gray-300">
-                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        In this project, I redesigned a culinary information website in Indonesia with a focus on UI improvement. The process includes problem identification, information architecture (IA) creation, and high-fidelity UI design using Figma.
                         </p>
                     </div>
                 </div>
@@ -113,11 +115,11 @@
                 <!-- 2 -->
                 <div class="swiper-slide">
                 <div class="bg-[#C1AD96] rounded-lg shadow-2xl border-4 border-[#D9B896] text-white items-center justify-center">
-                    <img src="raffa.png" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <img src="BI.jpg" class="mb-4 w-full max-w-[350px] mx-auto" />
                     <div class="p-4 bg-[#73200F]">
-                        <h3 class="text-lg font-bold ">Bububububu</h3>
-                        <p class="text-sm text-gray-300">
-                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <h3 class="text-lg font-bold ">BUSINESS INTELLIGENCE DIBIMBING BOOTCAMP</h3>
+                        <p class="text-sm text-gray-300"> 
+                            In this project, I will dive into sales data to find important patterns and trends, visualize them with Tableau, and provide deep insights that can support business decisions by using : Data cleansing/ processing/ visualization.
                         </p>
                     </div>
                 </div>
@@ -126,11 +128,11 @@
                 <!-- 3 -->
                 <div class="swiper-slide">
                 <div class="bg-[#C1AD96] rounded-lg shadow-2xl border-4 border-[#D9B896] text-white items-center justify-center">
-                    <img src="raffa.png" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <img src="GDG.jpg" class="mb-4 w-full max-w-[350px] mx-auto" />
                     <div class="p-4 bg-[#73200F]">
-                        <h3 class="text-lg font-bold ">Bububububu</h3>
+                        <h3 class="text-lg font-bold ">UI/UX GDGOC UIN Jakarta</h3>
                         <p class="text-sm text-gray-300">
-                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        In this project, my team and I created a modern platform for Islamic learning to access accurate and easy-to-understand Islamic materials. My role as a UX Designer is to ensure that the user experience is easy, comfortable and enjoyable when using an app or website.
                         </p>
                     </div>
                 </div>
@@ -139,11 +141,11 @@
                 <!-- 4 -->
                 <div class="swiper-slide">
                 <div class="bg-[#C1AD96] rounded-lg shadow-2xl border-4 border-[#D9B896] text-white items-center justify-center">
-                    <img src="raffa.png" class="mb-4 w-full max-w-[200px] mx-auto" />
+                    <img src="SKY.jpg" class="mb-4 w-full max-w-[350px] mx-auto" />
                     <div class="p-4 bg-[#73200F]">
-                        <h3 class="text-lg font-bold ">Bububububu</h3>
+                        <h3 class="text-lg font-bold ">WEB DEVELOPER HITLAB</h3>
                         <p class="text-sm text-gray-300">
-                        Lore ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        My team and I developed a web-based climate change education platform that provides up-to-date information, statistical data, and interactive tools such as a carbon footprint calculator to help people understand environmental issues and encourage action to reduce them.
                         </p>
                     </div>
                 </div>
@@ -178,17 +180,28 @@
               </div>
           </div>
     </section> -->
-    <section id="goals" class="px-[100px] py-16">
-          <h1 class="text-7xl pb-4 b-[40px] border-b-4 border-[#AD9277] max-w-[200px]">Goals</h1>
-        <div class="flex gap-10 mt-10">
-            <div class="flex flex-col justify-between border-r-2 border-[#4B160B] pr-10 w-1/2">
+    <section id="goals" class="px-[100px] md:px-20 py-16 bg-[#F0EADE]">
+          <h1 class="text-7xl md:text-7xl pb-4 b-[40px] border-b-4 border-[#AD9277] max-w-[200px]">Goals</h1>
+        <div class="flex flex-col lg:flex-row gap-10 mt-10">
+            <div class="flex flex-col border-r-2 border-[#4B160B] pr-6 lg:pr-10 w-full lg:w-1/2">
             <p class="text-black text-justify mb-8">
                 Referring to my interests and background that I have stated earlier, with the foundation of interests and abilities that I have built, I have a clear vision of the direction of my future development. Here are the goals that I would like to achieve:
             </p>
-            <img src="box goals.svg" alt="box" class="w-[500px] mx-auto">
+           <h1 class="text-7xl mb-[50px]">Quote</h1>
+            <div id="quote-box" class="relative w-full max-w-[500px]">
+
+            <div class="absolute top-3 left-3 w-full h-full bg-[#4B160B] rounded-xl"></div>
+
+            <div class="relative bg-[#6A1F0D] text-white p-6 rounded-xl shadow-lg z-10">
+                <i class="fas fa-quote-left text-xl opacity-50"></i>
+                <p id="quote-text" class="my-4 italic">Loading...</p>
+                <p id="quote-author" class="text-sm text-right font-semibold"></p>
+                <i class="fas fa-quote-right text-xl opacity-50 absolute bottom-4 right-4"></i>
+            </div>
+            </div>
             </div>
 
-            <div class="p-4 w-1/2">
+            <div class="p-4 lg:w-1/2">
 
             <div class="flex items-start gap-4 mb-6">
                 <p class="px-4 py-2 flex items-center justify-center rounded-full bg-[#C8A27D] text-white font-bold">1</p>
@@ -204,16 +217,6 @@
                 </p>
             </div>
             </div>
-        </div>
-    </section>
-
-    <section id="quote" class="mx-[100px] mt-10 bg-[#D9B896] p-10 text-center rounded-lg shadow-2xl border-4 border-[#4B160B]">
-        <h1 class="text-7xl mb-[50px]">Quote</h1>
-        <div id="quote-box" class="box ">
-            <i class="fas fa-quote-right"></i>
-            <i class="fas fa-quote-left"></i>
-            <p id="quote-text">Loading...</p>
-            <p id="quote-author"></p>
         </div>
     </section>
     <div class="bg-[#6F3E1E] border-t-4 border-[#D9B896] text-[#002F29] pt-5 pb-5 text-center text-white">
