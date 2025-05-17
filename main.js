@@ -3,6 +3,13 @@ let currentIndex = 0;
     const quoteAuthor = document.getElementById('quote-author');
     const newQuoteBtn = document.getElementById('new-quote');
     
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+      menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      }
+    );
+
     // Fetch quotes from your API
     async function fetchQuotes() {
         try {

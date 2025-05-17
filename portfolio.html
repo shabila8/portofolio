@@ -20,59 +20,76 @@
     </style>
 </head>
 <body>
-    <nav class="flex flex-col md:flex-row items-center justify-between bg-[#6F3E1E] border-b-4 border-[#D9B896] px-6 md:px-10 py-5">
-        <div>
-            <h1 class="text-white font-bold py-5 px-10 text-2xl md:text-3xl">Raffa Shalsabila</h1>
+    <!-- Navbar -->
+<nav class="bg-[#6F3E1E] border-b-4 border-[#D9B896] px-6 md:px-10 py-5 relative z-50">
+
+  <!-- Desktop & Tablet Navbar -->
+  <div class="hidden md:flex flex-row items-center justify-between">
+    <h1 class="text-white font-bold text-2xl md:text-3xl">Raffa Shalsabila</h1>
+    <ul class="flex space-x-16">
+      <li><a href="#hero" class="text-white font-semibold hover:text-[#D9B896]">Home</a></li>
+      <li><a href="#About-Me" class="text-white font-semibold hover:text-[#D9B896]">About Me</a></li>
+      <li><a href="#Project" class="text-white font-semibold hover:text-[#D9B896]">Project</a></li>
+      <li><a href="#goals" class="text-white font-semibold hover:text-[#D9B896]">Goals</a></li>
+    </ul>
+  </div>
+    <!-- Mobile Navbar -->
+  <div class="flex md:hidden justify-between items-center">
+    <h1 class="text-white font-bold text-xl">Raffa Shalsabila</h1>
+    <button id="menu-toggle" class="text-white focus:outline-none">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2"
+        viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </div>
+  <!-- Dropdown Menu -->
+  <div id="mobile-menu" class="hidden md:hidden flex-col space-y-4 mt-4 px-4">
+    <a href="#hero" class="text-white font-semibold block py-2 border-b border-[#D9B896]">Home</a>
+    <a href="#About-Me" class="text-white font-semibold block py-2 border-b border-[#D9B896]">About Me</a>
+    <a href="#Project" class="text-white font-semibold block py-2 border-b border-[#D9B896]">Project</a>
+    <a href="#goals" class="text-white font-semibold block py-2 border-b border-[#D9B896]">Goals</a>
+  </div>
+</nav>
+    <section id="hero" class="flex bg-[#F0EADE] flex-col md:flex-row items-center md:py-20">
+  <!-- Foto -->
+  <div>
+    <img src="raffa.svg" alt="Raffa" class="w-[280px] h-auto my-[50px] md:w-[400px] md:h-[500px] mx-auto md:mx-[100px] transition-all duration-300">
+  </div> 
+
+  <!-- Konten Teks -->
+  <div class="flex flex-col justify-center md:ml-16">
+    <h1 class="text-3xl md:text-4xl lg:text-4xl text-center md:text-left">HELLO, I'M</h1>
+    <h1 class="text-3xl md:text-5xl lg:text-5xl font-normal bg-[#AD9277] inline-block mt-2 px-6 py-2 self-start md:self-end">RAFFA SHALSABILA</h1>
+
+    <p class="text-base md:text-lg lg:text-xl mt-6 md:mt-10 md:max-w-xl text-center md:text-left">
+      An Information Systems student at UIN Jakarta with a keen interest in design, especially graphic design and user interface (UI).
+    </p>
+
+    <!-- Box Let’s Connect! -->
+    <div class="mt-6 md:mt-10 md:self-start">
+      <div class="bg-[#5D1F0F] border-8 border-[#73200F] px-6 py-4 rounded-xl relative flex flex-col items-center w-fit">
+        <!-- Label -->
+        <div class="absolute -top-6 left-4 bg-[#C4A78A] px-4 py-1 rounded-t-lg shadow text-sm font-bold text-[#1A1A1A]">
+          Let’s Connect!
         </div>
-        <div>
-            <ul class="flex space-x-[100px] py-7 ml-[300px]">
-                <li><a href="#hero" class="text-white font-semibold">Home</a></li>
-                <li><a href="#About-Me" class="text-white font-semibold">About Me</a></li>
-                <li><a href="#Project" class="text-white font-semibold">Project</a></li>   
-                  <li><a href="#goals" class="text-white font-semibold">Goals</a></li>    
-            </ul>
+
+        <!-- Icons -->
+        <div class="flex gap-6 mt-6">
+          <a href="mailto:raffashalsabilaa@gmail.com" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+            <img src="gmail.svg" alt="Gmail" class="w-8 h-8">
+          </a>
+          <a href="https://www.linkedin.com/in/raffa-shalsabila-a2025b345/" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+            <img src="linkedin.svg" alt="LinkedIn" class="w-8 h-8">
+          </a>
+          <a href="https://github.com/shabila8" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
+            <img src="github.svg" alt="GitHub" class="w-8 h-8">
+          </a>
         </div>
-    </nav>
-    <section id="hero" class="flex bg-[#F0EADE] flex-col md:flex-row items-center  md:py-20">
-        <div class="">
-            <img src="raffa.svg" alt="" class="w-64 h-auto mx-[100px] my-[50px] md:w-[400px] md:h-[500px] mx-auto md:mx-0">
-        </div> 
-        <div class="px-30 py-20 text-center md:text-left mt-8 md:mt-0 md:ml-16">
-            <h1 class="text-5xl md:text-7xl lg:text-4xl">HELLO, I'M</h1>
-            <h1 class="text-5xl md:text-7xl lg:text-7xl font-normal bg-[#AD9277] inline-block px-4 mt-2 ">RAFFA SHALSABILA</h1>
-            <br>
-            <br>
-            <br>
-            <h1 class="text-5xl md:text-7xl lg:text-4xl">An Information Systems student at UIN Jakarta with a keen interest in design, especially graphic design and user interface (UI).</h1>
-            <section class="py-8 px-[200px] flex justify-center mt-10 flex justify-center md:justify-start">
-                <div class="bg-[#5D1F0F] border-8 border-[#73200F] px-6 py-4 rounded-xl relative flex flex-col items-center">
-                    <!-- Label -->
-                    <div class="absolute -top-6 left-4 bg-[#C4A78A] px-4 py-1 rounded-t-lg shadow text-sm font-bold text-[#1A1A1A]">
-                    Let’s Connect!
-                    </div>
-
-                    <!-- Icons -->
-                    <div class="flex gap-6 mt-6">
-                    <!-- Icon 1 -->
-                    <a href="mailto:raffashalsabilaa@gmail.com " target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
-                        <img src="gmail.svg" alt="Gmail" class="w-8 h-8">
-                    </a>
-
-                    <!-- Icon 2 -->
-                    <a href="https://www.linkedin.com/in/raffa-shalsabila-a2025b345/" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
-                        <img src="linkedin.svg" alt="LinkedIn" class="w-8 h-8">
-                    </a>
-
-                    <!-- Icon 3 -->
-                    <a href="https://github.com/shabila8" target="_blank" class="bg-[#D2BCA0] p-4 rounded-full shadow-md hover:scale-105 transition">
-                        <img src="github.svg" alt="GitHub" class="w-8 h-8">
-                    </a>
-
-
-                    </div>
-                </div>
-                </section>
-
+      </div>
+    </div>
+  </div>
+</section>
         </div>
     </section>
     <section id="About-Me" class="flex flex-col md:flex-row md:px-16 items-center px-4 py-16 bg-[#F0EADE]">
